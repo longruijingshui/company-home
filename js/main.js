@@ -19,24 +19,21 @@ document.querySelectorAll('.nav-links a').forEach(link => {
 const products = [
     {
         id: 1,
-        name: "不锈钢餐具套装",
-        description: "高品质不锈钢餐具，耐用美观，适合家庭和餐厅使用。",
-        image: "images/product1.jpg",
-        price: "$25.99"
+        name: "阴离子聚丙烯酰胺",
+        description: "主要用于各种工业废水的絮凝沉降，沉淀澄清处理",
+        image: "image/prod/jibingxixiananyinlizi.jpg",
     },
     {
         id: 2,
-        name: "陶瓷茶具套装",
-        description: "精美陶瓷茶具，传统工艺制作，品味生活必备。",
-        image: "images/product2.jpg",
-        price: "$39.99"
+        name: "阳离子聚丙烯酰胺",
+        description: "特别适用于城市污水、污泥、造纸污泥及其它工业污泥的脱水处理药剂",
+        image: "image/prod/jubingxixiananyanglizi.jpg",
     },
     {
         id: 3,
-        name: "竹制砧板",
-        description: "天然竹制砧板，环保健康，抗菌防霉。",
-        image: "images/product3.jpg",
-        price: "$19.99"
+        name: "活性炭",
+        description: "适用于精制糖脱色、葡萄糖工业、化学助剂高色素溶液的脱色、提纯、除臭、除杂",
+        image: "image/prod/huoxingtan.jpg",
     }
 ];
 
@@ -55,7 +52,6 @@ function displayProductPreview() {
                     <div class="product-card-content">
                         <h3>${product.name}</h3>
                         <p>${product.description}</p>
-                        <p><strong>${product.price}</strong></p>
                         <a href="product-detail.html?id=${product.id}" class="btn">查看详情</a>
                     </div>
                 </div>

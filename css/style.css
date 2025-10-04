@@ -89,9 +89,9 @@ main {
 
 /* 首页样式 */
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../images/hero-bg.jpg') no-repeat center center/cover;
+    background: linear-gradient(to right, #b3e0ff, #3366cc);;
     color: white;
-    padding: 100px 0;
+    padding: 60px 0;
     text-align: center;
 }
 
@@ -348,6 +348,7 @@ main {
 /* 联系我们样式 */
 .contact {
     padding: 50px 0;
+    margin-bottom: 150px;
 }
 
 .contact h2, .map h2 {
@@ -420,11 +421,11 @@ footer {
 /* 响应式设计 */
 @media screen and (max-width: 768px) {
     .navbar .container {
-        padding: 15px;
+        padding: 5px 15px;
     }
     
     .logo h1 {
-        font-size: 20px;
+        font-size: 14px;
     }
     
     .nav-links {
@@ -465,7 +466,7 @@ footer {
     }
     
     .hero {
-        padding: 60px 0;
+        padding: 30px 0;
     }
     
     .hero h2 {

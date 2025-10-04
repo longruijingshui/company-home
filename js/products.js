@@ -2,10 +2,9 @@
 const products = [
     {
         id: 1,
-        name: "不锈钢餐具套装",
-        description: "高品质不锈钢餐具，耐用美观，适合家庭和餐厅使用。采用食品级304不锈钢材质，经过精细抛光处理，光泽度高，易清洁。",
-        image: "images/product1.jpg",
-        price: "$25.99",
+        name: "阴离子聚丙烯酰胺",
+        description: "主要用于各种工业废水的絮凝沉降，沉淀澄清处理",
+        image: "image/prod/jibingxixiananyinlizi.jpg",
         category: "餐具系列",
         specs: {
             材质: "304不锈钢",
@@ -16,10 +15,9 @@ const products = [
     },
     {
         id: 2,
-        name: "陶瓷茶具套装",
-        description: "精美陶瓷茶具，传统工艺制作，品味生活必备。采用高温烧制工艺，釉面光滑，色泽温润，具有良好的保温性能。",
-        image: "images/product2.jpg",
-        price: "$39.99",
+        name: "阳离子聚丙烯酰胺",
+        description: "特别适用于城市污水、污泥、造纸污泥及其它工业污泥的脱水处理药剂",
+        image: "image/prod/jubingxixiananyanglizi.jpg",
         category: "茶具系列",
         specs: {
             材质: "优质陶瓷",
@@ -30,9 +28,9 @@ const products = [
     },
     {
         id: 3,
-        name: "竹制砧板",
-        description: "天然竹制砧板，环保健康，抗菌防霉。选用优质毛竹为原料，经过高温碳化处理，硬度高，不易开裂，双面可用。",
-        image: "images/product3.jpg",
+        name: "活性炭",
+        description: "适用于精制糖脱色、葡萄糖工业、化学助剂高色素溶液的脱色、提纯、除臭、除杂",
+        image: "image/prod/huoxingtan.jpg",
         price: "$19.99",
         category: "厨房用品",
         specs: {
@@ -44,10 +42,9 @@ const products = [
     },
     {
         id: 4,
-        name: "丝绸围巾",
-        description: "100%桑蚕丝围巾，轻盈柔软，光泽自然。采用传统织造工艺，图案精美，色彩丰富，是商务和休闲的理想配饰。",
-        image: "images/product4.jpg",
-        price: "$59.99",
+        name: "聚合氯化铝",
+        description: "极易溶于水，可用于生活饮用水、工业用水及工业废水、生活污水处理、印染废水、屠宰废水",
+        image: "image/prod/juhelvhualvbankuang.jpg",
         category: "纺织品",
         specs: {
             材质: "100%桑蚕丝",
@@ -58,10 +55,9 @@ const products = [
     },
     {
         id: 5,
-        name: "紫砂茶壶",
-        description: "宜兴紫砂茶壶，传统手工制作，具有良好的透气性和保温性。长期使用后会形成独特的包浆，越用越有韵味。",
-        image: "images/product5.jpg",
-        price: "$89.99",
+        name: "聚合氯化铝铁",
+        description: "适用于各种工业废水处理：印染废水、皮革废水、重金属废水、含油废水、造纸废水、洗煤废水、矿山废水、冶金废水。",
+        image: "image/prod/juhelvhualvtie.jpg",
         category: "茶具系列",
         specs: {
             材质: "宜兴紫砂",
@@ -72,10 +68,9 @@ const products = [
     },
     {
         id: 6,
-        name: "手工刺绣装饰画",
-        description: "精美手工刺绣装饰画，采用传统苏绣工艺，图案生动，色彩丰富。是家居装饰和馈赠亲友的理想选择。",
-        image: "images/product6.jpg",
-        price: "$129.99",
+        name: "除磷剂",
+        description: "除浊、脱色、脱油、脱水、除菌、除臭、除藻、去除水中COD、BOD及重金属离子等功效显著。",
+        image: "image/prod/chulinji.jpg",
         category: "工艺品",
         specs: {
             材质: "丝绸+绣线",
@@ -100,7 +95,6 @@ function displayAllProducts() {
                     <div class="product-card-content">
                         <h3>${product.name}</h3>
                         <p>${product.description}</p>
-                        <p><strong>${product.price}</strong></p>
                         <a href="product-detail.html?id=${product.id}" class="btn">查看详情</a>
                     </div>
                 </div>
