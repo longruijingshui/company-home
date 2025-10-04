@@ -113,7 +113,7 @@ function displayProductDetail() {
                                 ${specsHTML}
                             </ul>
                         </div>
-                        <button class="btn" onclick="alert('已添加到询价单')">询价</button>
+                        <a href="mailto:xiwenju1@gmail.com"  class="btn">询价</a>
                     </div>
                 </div>
             `;

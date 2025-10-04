@@ -41,9 +41,12 @@ body {
     color: #2c3e50;
     font-size: 18px;
 }
+.logo h1 div:last-child {
+    font-size: 12px;
+}
 
 .logo-img {
-    height: 50px;
+    height: 40px;
     width: auto;
 }
 
